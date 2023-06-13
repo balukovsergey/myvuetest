@@ -1,0 +1,57 @@
+/* styles.css */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-panel {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-panel h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.period-select {
+    display: flex;
+    align-items: center;
+}
+
+.period-select label {
+    margin-right: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    margin-left: 220px;
+    background-color: #fff;
+    padding: 20px;
+}
